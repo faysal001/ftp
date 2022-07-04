@@ -119,11 +119,11 @@ nav ul li a:hover{
 
 .banner-contents h1{
     width: 100%;
-    margin: 15px auto;
-    font-size: 4rem;
+    margin: 10px auto;
+    font-size: 3rem;
     background-color: rgba(255,255,0,0.684);
     border-radius: 5px;
-    padding: 10px;
+    padding: 5px;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bolder;
 	
@@ -134,13 +134,23 @@ nav ul li a:hover{
 
 
 .banner-contents p{
+    width: 90%;
+    margin: 20px auto;
+    background-color: rgb(255,0,255);
+    color: white;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+
+/* .banner-contents p{
     width: 300px;
     margin: 15px auto;
     background-color: rgb(255,0,255);
     color: white;
     padding: 10px;
     font-size: 1.5rem;
-}
+} */
 
 .btn{
     width: 160px;
@@ -329,6 +339,18 @@ footer p{
 
 /* fors small devices 576px and UP  */
 @media (min-width: 576px){
+
+
+
+
+
+    
+    
+
+
+
+
+
     .col-sm-1 {width: 8.33%;}
     .col-sm-2 {width: 16.66%;}
     .col-sm-3 {width: 25%;}
